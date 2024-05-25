@@ -1,0 +1,8 @@
+const btnlike1 =document.getElementById("btnLike1") as HTMLButtonElement
+const count1 =bdocument.getElementById("count1") as HTMLOutputElement
+
+function countLike1(){
+    let likeCounts=parseInt(count1.value) + 1
+    count1textContent = likeCounts.toString()
+}
+btnLike1.addEventListener("click",countLike1)
