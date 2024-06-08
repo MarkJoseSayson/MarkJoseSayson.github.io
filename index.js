@@ -19,3 +19,15 @@ function countLike2() {
 }
 
 btnLike2.addEventListener("click", countLike2)
+
+const submit = document.getElementById("submit")
+
+const comment = document.getElementById("comment")
+
+const comment box = document.getElementById("commentbox")
+
+function submitComment(){
+  commentbox.textcontent += comment.value.toString() + "\n"
+}
+submit.addEventListener("click",submitComment)
+
